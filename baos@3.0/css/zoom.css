@@ -1,0 +1,171 @@
+
+@keyframes zoom-in {
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes zoom-in-up {
+    0%{
+        transform-origin: bottom;
+        transform: translateY(60px) scale(0.6);
+    }
+    100%{
+        transform: translateY(0) scale(1);
+    }
+}
+@keyframes zoom-in-down {
+    0%{
+        transform-origin: top;
+        transform: translateY(-60px) scale(0.6);
+    }
+    100%{
+        transform: translateY(0) scale(1);
+    }
+}
+@keyframes zoom-in-left {
+    0%{
+        transform-origin: right;
+        transform: translateX(60px) scale(0.6);
+    }
+    100%{
+        transform: translateY(0) scale(1);
+    }
+}
+@keyframes zoom-in-right {
+    0%{
+        transform-origin: left;
+        transform: translateX(-60px) scale(0.6);
+    }
+    100%{
+        transform: translateY(0) scale(1);
+    }
+}
+@keyframes zoom-in-to-bottom-right {
+    0%{
+        transform-origin: 0;
+        transform: translate(-60px, -60px) scale(0.6);
+    }
+    100%{
+        transform: translate(0) scale(1);
+    }
+}
+@keyframes zoom-in-to-bottom-left {
+    0%{
+        transform-origin: 0;
+        transform: translate(60px, -60px) scale(0.6);
+    }
+    100%{
+        transform: translate(0) scale(1);
+    }
+}
+@keyframes zoom-in-to-up-right {
+    0%{
+        transform-origin: bottom;
+        transform: translate(-60px, 60px) scale(0.6);
+    }
+    100%{
+        transform: translate(0) scale(1);
+    }
+}
+@keyframes zoom-in-to-up-left {
+    0%{
+        transform-origin: bottom;
+        transform: translate(60px, 60px) scale(0.6);
+    }
+    100%{
+        transform: translate(0) scale(1);
+    }
+}
+@keyframes zoom-out {
+    0%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateZ(300px);
+    }
+    100%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateZ(0px);
+    }
+}
+@keyframes zoom-out-up {
+    0%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateY(60px) translateZ(300px);
+    }
+    100%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateY(0) translateZ(0px);
+    }
+}
+@keyframes zoom-out-down {
+    0%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateY(-60px) translateZ(300px);
+    }
+    100%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateY(0) translateZ(0px);
+    }
+}
+@keyframes zoom-out-right {
+    0%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateX(-60px) translateZ(300px);
+    }
+    100%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateX(0) translateZ(0px);
+    }
+}
+@keyframes zoom-out-left {
+    0%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateX(60px) translateZ(300px);
+    }
+    100%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateX(0) translateZ(0px);
+    }
+}
+@keyframes zoom-out-to-bottom-right {
+    0%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateX(-60px) translateY(-60px) translateZ(300px);
+    }
+    100%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateX(0) translateY(0px) translateZ(0px);
+    }
+}
+@keyframes zoom-out-to-bottom-left {
+    0%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateX(60px) translateY(-60px) translateZ(300px);
+    }
+    100%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateX(0) translateY(0px) translateZ(0px);
+    }
+}
+@keyframes zoom-out-to-up-right {
+    0%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateX(-60px) translateY(60px) translateZ(300px);
+    }
+    100%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateX(0) translateY(0px) translateZ(0px);
+    }
+}
+@keyframes zoom-out-to-up-left {
+    0%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateX(60px) translateY(60px) translateZ(300px);
+    }
+    100%{
+        transform-style: preserve-3d;
+        transform: perspective(1000px) translateX(0) translateY(0px) translateZ(0px);
+    }
+}
